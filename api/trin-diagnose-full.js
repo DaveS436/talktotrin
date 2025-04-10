@@ -1,4 +1,3 @@
-
 export default function handler(req, res) {
   if (req.method === 'POST') {
     const { symptoms, name } = req.body;
@@ -14,3 +13,4 @@ export default function handler(req, res) {
     res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }
+
