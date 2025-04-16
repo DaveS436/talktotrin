@@ -1,2 +1,2 @@
 @echo off
-call gradlew %*
+echo Running Gradle Wrapper (Windows)
